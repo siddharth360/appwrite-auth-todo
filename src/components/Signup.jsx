@@ -24,7 +24,6 @@ function Signup() {
 
         promise.then(
             function(response){
-                console.log(response);
                 navigate("/profile") //success
             },
             function(error) {
